@@ -1,4 +1,4 @@
-# mac_reserve_website
+# mac-reservation-system
 
 ## How to run
 1. Create a dynamic web project in eclipse EE
