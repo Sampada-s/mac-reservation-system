@@ -1,0 +1,116 @@
+﻿* 	
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin:40px;
+    padding:0;
+}
+
+.submit 
+{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+header.mac 
+{
+    background-color:#f68026;
+    border: 3px solid #0948b1;
+    outline-style: solid;
+    outline-color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+    color: white; 
+}
+
+nav 
+{
+    float: left;
+    width: 20%;
+    background-color:#f68026;
+    border: 3px solid #0948b1;
+    outline-style: solid;
+    outline-color: white;
+    padding: 20px;
+}
+
+nav ul
+{
+list-style-type: none;
+padding: 0;
+}
+
+section:after
+{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+article 
+{
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color:white;
+    border: 3px solid #0948b1;
+    outline-style: solid;
+    outline-color: white;
+    height: 800px; /* only for demonstration, should be removed */
+}
+
+table.center 
+{
+    margin-left:auto; 
+    margin-right:auto;
+    
+    border: 3px solid #f68026;
+    outline-style: solid;
+    outline-color: white;
+}
+    
+tr
+{
+    background-color: #f68026;
+}
+
+td
+{
+    color: white;
+    padding: 12px;
+    font-size: 24px;
+}
+
+div.mav
+{
+    width:500px;
+    height:700px;
+    margin-left:auto; 
+    margin-right:auto;
+    background-image: url(mav.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity:0.4;
+}
+
+.ui-datepicker {
+    background: white;
+    border: 1px solid white;
+    border: white;
+    outline-color: white;
+    color: #EEE;
+ }
